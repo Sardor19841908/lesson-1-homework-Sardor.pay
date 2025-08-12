@@ -73,5 +73,41 @@ if age>=18:
     print("San prava olishing mumkin")
 else:
     print ('Yoshing yetarli emas')
-    
+    age = int (input("yosingni kirit"))
+if age>=18:
+    print("San prava olishing mumkin")
+else:
+    print ('Yoshing yetarli emas')
+city = input ("qayerda yashaysan? ")
+if city == 'Tashkent':
+    print('seni ishga olamiz')
+else:
+    print('uzur,kechirasan')
+    result = int(input("ielts balini sorash? ")) 
+if result >= 7:
+    print('sanga 2 mln beramiz')
+else:
+    print('uzur,kechirasan, ukam damini ol hech narsa yoq senga')
+    products = ['laptop', 'monitor', 'mouse']
+product_sold = input("nima sotib olding")
+if product_sold in products:
+    print('senga katta chegirma bor')
+else:
+    print('kechirasan senga hech narsa yoq')    
+    hafta_kuni = int(input("hafta kunini kirit"))
+if hafta_kuni == 1:
+    print ("bugun Dushanba")
+elif hafta_kuni == 2:
+    print ("bugun Seshanba")
+else:
+    print ("notogri malumot") 
+    age = int(input("yoshingni kirit"))
+if age>=18:
+    yes_prava = input("Haydovchilik guvohnomasi bormi yoki yoq")
+    if yes_prava == 'Ha':
+        print ('oq yol')
+    else: 
+        print ('Siz prava bor')
+else:
+    print('Uzr prava yoq')
 
