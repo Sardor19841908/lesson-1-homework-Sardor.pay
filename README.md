@@ -110,4 +110,15 @@ if age>=18:
         print ('Siz prava bor')
 else:
     print('Uzr prava yoq')
-
+year = int(input('yilni kiriting'))
+if year%4==0:
+    if year%100 == 0:
+        if year%400 ==0:
+            print('kabisa yili')
+        else:
+            print('kabisa yili emas')
+    else:
+        print('kabisa yili')
+else:
+    print('kabisa yili emas')          
+    
