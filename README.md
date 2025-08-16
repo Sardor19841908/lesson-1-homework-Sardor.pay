@@ -118,7 +118,27 @@ if year%4==0:
         else:
             print('kabisa yili emas')
     else:
+    def Social_depart(name):
+    print(f"Social{name}, department")
+Social_depart('department')
+
         print('kabisa yili')
 else:
     print('kabisa yili emas')          
-    
+
+    # funksiya ---
+## bulit+in --- pyton ozida mavjud funcionlar
+## user-defined
+id('hello')
+def my_function(): # --- snake_case ---
+    print('Hello')
+    my_function()
+    def my_function():
+    print('Social')
+    def Social_depart(name):
+    print(f"Social{name}, department")
+Social_depart('department')
+def taklifnoma (name='fuqaro', ziyofat='tugilgan kun'):
+    print(f"Salom {name}, seni {ziyofat}ga taklif etaman")
+taklifnoma (name= 'Sardor', ziyofat="toy")
+
