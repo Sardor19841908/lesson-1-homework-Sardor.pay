@@ -189,3 +189,21 @@ pol_func('polidrom')
         print(2**num)
         num = num+ 1
 power_two(100)
+
+def pol_func(soz):
+    b=soz[::-1]
+    if soz == b:
+        print ('kiyik')
+    else:
+        print ('kiyik emas')
+pol_func('polidrom')
+## print
+## return
+
+def test():
+    print('Hello')
+test()
+def test():
+    return 'Hello'
+test()
+a = 5 
