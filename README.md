@@ -152,3 +152,30 @@ def add_numbers(a,b):
     print(a+b)
 
 add_numbers(10,10)
+def my_function(nembers):
+    res = i
+    for i in numbers:
+        res = res * icn
+    print('60**2')
+add_numbers(120)
+def my_function(n):
+    for i in range (1,n):
+        if 2**i<n:
+            print(2**i)
+my_function(100)
+def my_function(n):
+    for i in range (1,n):
+        if 2**i<n:
+            print(2**i)
+my_function(350)
+def my_function2(n):
+   a=1
+   while 2**i<n:
+            print(2**a)
+my_function(21)
+def power_two(number):
+    num = 1
+    while 2**num < number:
+        print(2**num)
+        num = num+ 1
+power_two(100)
