@@ -175,6 +175,16 @@ def my_function2(n):
 my_function(21)
 def power_two(number):
     num = 1
+    # kiyik --- kiyik -- palindrome
+чапдан ва ўнгдан ўқигандан тўғри ёзилиши 
+def pol_func(soz):
+    b=soz[::-1]
+    if soz == b:
+        print ('kiyik')
+    else:
+        print ('kiyik emas')
+pol_func('polidrom')
+
     while 2**num < number:
         print(2**num)
         num = num+ 1
