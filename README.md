@@ -207,3 +207,36 @@ def test():
     return 'Hello'
 test()
 a = 5 
+def test():
+    print ('Hello')
+a = test()
+print(a)
+def test():
+    return 'Hello'
+b = test()
+b
+def replace_value(name):
+    with open('exampla.txt') as f:
+        data = f.read()
+        data = data.replace('Javlon', name)
+        return data
+new_data = replace_value('Sardor')
+with open('exampla.txt', 'w')  as f:
+        f.write(new_data)
+        # d = {"blue":3, "red":1, "yellow":1, "green":2}
+
+d = {}
+
+for word in ls:
+    if word not in d.keys():
+        d[word] = 1
+    else:
+        d[word] = d[word] + 1
+d
+ls = ['blue','red', 'yellow', 'green', 'blue', 'green']
+def func3(rang):
+    return ls.count(rang)
+d={}
+for r in ls:
+    d[r]=func3(r)
+d
