@@ -141,4 +141,10 @@ Social_depart('department')
 def taklifnoma (name='fuqaro', ziyofat='tugilgan kun'):
     print(f"Salom {name}, seni {ziyofat}ga taklif etaman")
 taklifnoma (name= 'Sardor', ziyofat="toy")
+def taklifnoma (name='fuqaro', ziyofat='tugilgan kun'):
+    print(f"Salom {name}, seni {ziyofat}ga taklif etaman")
+taklifnoma (name= 'Sardor', ziyofat="toy")
+def taklifnoma (name='fuqaro', qotarga='mazza qilib pivo, konyak, tekkila ichish kuniga'):
+    print(f"Salom {name}, seni {qotarga}ga taklif etaman")
+taklifnoma ("Javlon")
 
