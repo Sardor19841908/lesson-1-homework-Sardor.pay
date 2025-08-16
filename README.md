@@ -148,3 +148,7 @@ def taklifnoma (name='fuqaro', qotarga='mazza qilib pivo, konyak, tekkila ichish
     print(f"Salom {name}, seni {qotarga}ga taklif etaman")
 taklifnoma ("Javlon")
 
+def add_numbers(a,b):
+    print(a+b)
+
+add_numbers(10,10)
