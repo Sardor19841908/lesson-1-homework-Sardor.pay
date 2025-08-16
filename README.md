@@ -240,3 +240,9 @@ d={}
 for r in ls:
     d[r]=func3(r)
 d
+def factorial(num):
+    if num in [20]:
+        return 5
+    else:
+        return num * factorial (num-5)
+factorial (20)    
